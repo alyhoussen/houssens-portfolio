@@ -174,6 +174,75 @@ Defined product vision, user flows, and technical architecture for a seamless, t
     // },
   ],
   projects: [
+    
+     {
+       title: "Decizio",
+       href: "decizio.online",
+       dates: "March 2025",
+       active: true,
+       description:
+         "A landing page for my future app, named Decizio, which is a decision making app that helps you make decisions, easily and efficiently.",
+       technologies: [
+         "Next.js",
+         "TailwindCSS",
+       ],
+       links: [
+        {
+          type: "Source",
+          href: "https://github.com/alyhoussen/decizio",
+          icon: <Icons.github className="size-3" />,
+        },
+       ],
+       image: "/decizio.PNG",
+       video:
+         "",
+     },
+     {
+       title: "IjeryMeteo",
+       href: "https://ijerymeteo.netlify.app/",
+       dates: "March 2025",
+       active: true,
+       description:
+         "A simple Weather App that allows you to check the weather forecast in your city or region just by searching it. I implemented this app using React and the Open-meteo API to fetch the weather data.",
+       technologies: [
+         "React",
+         "TailwindCSS",
+         "Open-meteo API",
+       ],
+       links: [
+        {
+          type: "Source",
+          href: "https://github.com/alyhoussen/weather-app",
+          icon: <Icons.github className="size-3" />,
+        },
+       ],
+       image: "/decizio.PNG",
+       video:
+         "",
+     }, {
+       title: "SmartSub",
+       href: "",
+       dates: "April 2025",
+       active: true,
+       description:
+         "A personal subscription manager, helping manage your subscriptions easily. It allows you to add, edit, and delete your subscriptions, and also provides a dashboard to see your subscriptions at a glance. It has a suggestion feature that suggests you alternatives that maybe cheaper or better.",
+       technologies: [
+         "React",
+         "TailwindCSS",
+         "Spring Boot",
+         "PostgreSQL",
+       ],
+       links: [
+        {
+          type: "Source",
+          href: "https://github.com/alyhoussen/smartsub_frontend",
+          icon: <Icons.github className="size-3" />,
+        },
+       ],
+       image: "/decizio.PNG",
+       video:
+         "",
+     },
      {
        title: "Screen Recorder App",
        href: "",
@@ -189,7 +258,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
        links: [
         {
           type: "Source",
-          href: "https://github.com/training",
+          href: "https://github.com/alyhoussen/screen_recorder",
           icon: <Icons.github className="size-3" />,
         },
        ],
@@ -212,75 +281,35 @@ Defined product vision, user flows, and technical architecture for a seamless, t
       links: [
         {
           type: "Source",
-          href: "https://github.com/training",
+          href: "https://github.com/traininghttps://github.com/alyhoussen/Training_Center_Management_system",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "/TLC_APP.PNG",
       video: "",
     },
-    // {
-    //   title: "llm.report",
-    //   href: "https://llm.report",
-    //   dates: "April 2023 - September 2023",
-    //   active: true,
-    //   description:
-    //     "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://llm.report",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/dillionverma/llm.report",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.llm.report/openai-demo.mp4",
-    // },
-    // {
-    //   title: "Automatic Chat",
-    //   href: "https://automatic.chat",
-    //   dates: "April 2023 - March 2024",
-    //   active: true,
-    //   description:
-    //     "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //     "Stripe",
-    //     "Cloudflare Workers",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://automatic.chat",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video:
-    //     "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    {
+       title: "HooBank Website",
+       href: "https://bank-murex-three.vercel.app/",
+       dates: "Nov 2024",
+       active: true,
+       description:
+         "This is a modern Bank Website that I decided to implement because I liked how it's designed. I found the design from Figma Community .",
+       technologies: [
+         "React",
+         "TailwindCSS",
+       ],
+       links: [
+        {
+          type: "Source",
+          href: "https://github.com/alyhoussen/bank",
+          icon: <Icons.github className="size-3" />,
+        },
+       ],
+       image: "/hoo-bank.PNG",
+       video:
+         "",
+     },
   ],
   hackathons: [
     {
