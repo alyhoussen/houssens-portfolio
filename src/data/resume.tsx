@@ -83,7 +83,7 @@ export const DATA = {
        href: "emit.mg",
        location: "Local",
        title: "Scrum Master, Tech Lead, Product Owner",
-       logoUrl: "//",
+       logoUrl: "/emit.png",
        start: "March 2025",
        end: "April 2025",
        description:
@@ -144,7 +144,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
        school: "EMIT",
        href: "https://emit.mg",
        degree: "s1, s2, s3, s4, s5, s6",
-       logoUrl: "",
+       logoUrl: "/emit.png",
        start: "2023",
        end: "2025",
      },
@@ -319,7 +319,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
        description:
          "Competed both in Algorithm individualy, and development with my team OVERSYNK.",
        image:
-        "",
+        "/emit.png",
        mlh: "",
        links: [], 
     },
