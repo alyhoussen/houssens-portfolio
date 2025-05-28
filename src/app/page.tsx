@@ -16,9 +16,9 @@ export default function Page() {
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="md:gap-[30px] gap-2 md:flex flex-col justify-between items-center">
+          <div className="gap-2 md:flex flex-col justify-between items-center">
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-[200px] border">
+              <Avatar className="size-[200px] border mb-[25px]">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
