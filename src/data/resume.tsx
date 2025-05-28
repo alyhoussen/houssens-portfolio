@@ -8,7 +8,7 @@ export const DATA = {
   location: "Fianarantsoa, MDG",
   locationLink: "https://www.google.com/maps/place/madagascar",
   description:
-    "Computer Science student / Software Developer. I love building things and solve problems through code. I'm pen to all opportunities.",
+    "Computer Science student / Software Developer. I love building things and solve problems through code. I'm open to all opportunities.",
   summary:
     "At the year 2022, I got my Science High School Diploma at ST Vincent de Paul in Andohanilakaka, which involves choosing a career path and education for my futur. As I have always been passionate about technologies and Computers, I have decided to pursue my studies in Computer Science at [EMIT Fianarantsoa](https://emit.mg), and continued my dream to get good at the domain I like so much. Today, I can say that I have gain enough knowledge and seeking for Internship opportunities to learn more and gain more experience. I competed in my first [Hackathon](/#hackathons) at February 12, 2025. It was an amazing event,thanks to our [CLUB EMITECH](https://www.facebook.com/EmiTechUF), and I am looking forward to participating  in any other competition on my interests. ",
   avatarUrl: "/me.png",
@@ -197,38 +197,28 @@ Defined product vision, user flows, and technical architecture for a seamless, t
        video:
          "",
      },
-    // {
-    //   title: "Magic UI",
-    //   href: "https://magicui.design",
-    //   dates: "June 2023 - Present",
-    //   active: true,
-    //   description:
-    //     "Designed, developed and sold animated UI components for developers.",
-    //   technologies: [
-    //     "Next.js",
-    //     "Typescript",
-    //     "PostgreSQL",
-    //     "Prisma",
-    //     "TailwindCSS",
-    //     "Stripe",
-    //     "Shadcn UI",
-    //     "Magic UI",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://magicui.design",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/magicuidesign/magicui",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "",
-    //   video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
+    {
+      title: "Training Center Management Application",
+      href: "",
+      dates: "Jul 2024 - Sep 2024",
+      active: true,
+      description:
+        "A management system, tailored to allow training center operations to be managed efficiently, including student enrollment and fee monitoring.",
+      technologies: [
+        "Laravel",
+        "Tailwindcss",
+        "MySQL",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/training",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
     // {
     //   title: "llm.report",
     //   href: "https://llm.report",
