@@ -141,12 +141,12 @@ Defined product vision, user flows, and technical architecture for a seamless, t
   ],
   education: [
      {
-       school: "EMIT",
+       school: "EMIT Fianarantsoa",
        href: "https://emit.mg",
-       degree: "s1, s2, s3, s4, s5, s6",
+       degree: "Bachelor of Science in Computer Science",
        logoUrl: "/emit.png",
        start: "2023",
-       end: "2025",
+       end: "Expected Graduation, November 2025",
      },
     // {
     //   school: "University of Waterloo",
