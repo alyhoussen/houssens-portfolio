@@ -18,7 +18,7 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 md:flex flex-col justify-between">
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-[300px] border">
+              <Avatar className="size-[300px]">
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
