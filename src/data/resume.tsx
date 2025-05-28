@@ -317,7 +317,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
        dates: "Feb 28, 2025",
        location: "Fianarantsoa",
        description:
-         "Competed both in Algorithm individualy, and development with my team <b>OVERSYNK</b>.",
+         "Competed both in Algorithm individualy, and development with my team OVERSYNK.",
        image:
         "",
        mlh: "",
