@@ -187,11 +187,11 @@ Defined product vision, user flows, and technical architecture for a seamless, t
          "TailwindCSS",
        ],
        links: [
-         {
-           type: "Website",
-           href: "",
-           icon: <Icons.globe className="size-3" />,
-         },
+        {
+          type: "Source",
+          href: "https://github.com/training",
+          icon: <Icons.github className="size-3" />,
+        },
        ],
        image: "/Screen_recorder.PNG",
        video:
