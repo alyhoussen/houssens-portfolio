@@ -193,7 +193,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
           icon: <Icons.github className="size-3" />,
         },
        ],
-       image: "/decizio.PNG",
+       image: "/Decizio.PNG",
        video:
          "",
      },
@@ -216,7 +216,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
           icon: <Icons.github className="size-3" />,
         },
        ],
-       image: "/decizio.PNG",
+       image: "/Ijery_meteo.PNG",
        video:
          "",
      }, {
@@ -239,7 +239,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
           icon: <Icons.github className="size-3" />,
         },
        ],
-       image: "/decizio.PNG",
+       image: "/Smart_sub.PNG",
        video:
          "",
      },
