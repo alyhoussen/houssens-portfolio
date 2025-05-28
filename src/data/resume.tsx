@@ -11,7 +11,7 @@ export const DATA = {
     "Computer Science student / Software Developer. I love building things and solve problems through code. I'm open to all opportunities.",
   summary:
     "At the year 2022, I got my Science High School Diploma at ST Vincent de Paul in Andohanilakaka, which involves choosing a career path and education for my futur. As I have always been passionate about technologies and Computers, I have decided to pursue my studies in Computer Science at [EMIT Fianarantsoa](https://emit.mg), and continued my dream to get good at the domain I like so much. Today, I can say that I have gain enough knowledge and seeking for Internship opportunities to learn more and gain more experience. I competed in my first [Hackathon](/#hackathons) at February 12, 2025. It was an amazing event,thanks to our [CLUB EMITECH](https://www.facebook.com/EmiTechUF), and I am looking forward to participating  in any other competition on my interests. ",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.jpg",
   skills: [
     "React",
     "Next.js",
