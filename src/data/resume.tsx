@@ -177,7 +177,7 @@ Defined product vision, user flows, and technical architecture for a seamless, t
     
      {
        title: "Decizio",
-       href: "decizio.online",
+       href: "https:/decizio.online",
        dates: "March 2025",
        active: true,
        description:
