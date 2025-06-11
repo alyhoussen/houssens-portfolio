@@ -71,7 +71,7 @@ export const DATA = {
        badges: [],
        location: "Local",
        title: "Software Development Engineering Intern",
-      logoUrl: "https://drive.google.com/file/d/1TbWgWft1XTbuiJz2aB-AbYsHrqxZ_3ee/view?usp=drivesdk",
+      logoUrl: "/T.png",
        start: "June 2024",
        end: "sept 2024",
        description:
