@@ -19,7 +19,7 @@ export default function Page() {
           <div className="gap-2 md:flex flex-col justify-between items-center">
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-[150px] border mb-[25px] flex justify-center items-center">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="size-[200px] " />
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
