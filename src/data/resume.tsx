@@ -8,10 +8,10 @@ export const DATA = {
   location: "Fianarantsoa, MDG",
   locationLink: "https://www.google.com/maps/place/madagascar",
   description:
-    "Computer Science student / Software Developer. I love building things and solve problems through code. I'm open to all opportunities.",
+    "A Computer Science student / Software Developer. I love building things and solve problems through code. I'm open to all opportunities.",
   summary:
     "At the year 2022, I got my Science High School Diploma at ST Vincent de Paul in Andohanilakaka, which involves choosing a career path and education for my futur. As I have always been passionate about technologies and Computers, I have decided to pursue my studies in Computer Science at [EMIT Fianarantsoa](https://emit.mg), and continued my dream to get good at the domain I like so much. Today, I can say that I have gain enough knowledge and seeking for Internship opportunities to learn more and gain more experience. I competed in my first [Hackathon](/#hackathons) at February 12, 2025. It was an amazing event,thanks to our [CLUB EMITECH](https://www.facebook.com/EmiTechUF), and I am looking forward to participating  in any other competition on my interests. ",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/me.png",
   skills: [
     "React",
     "Next.js",
@@ -141,43 +141,19 @@ Defined product vision, user flows, and technical architecture for a seamless, t
   ],
   education: [
      {
-       school: "EMIT",
+       school: "EMIT Fianarantsoa",
        href: "https://emit.mg",
-       degree: "s1, s2, s3, s4, s5, s6",
+       degree: "Bachelor of Science in Computer Science",
        logoUrl: "/emit.png",
        start: "2023",
-       end: "2025",
-     },
-    // {
-    //   school: "University of Waterloo",
-    //   href: "https://uwaterloo.ca",
-    //   degree: "Bachelor's Degree of Computer Science (BCS)",
-    //   logoUrl: "/waterloo.png",
-    //   start: "2016",
-    //   end: "2021",
-    // },
-    // {
-    //   school: "Wilfrid Laurier University",
-    //   href: "https://wlu.ca",
-    //   degree: "Bachelor's Degree of Business Administration (BBA)",
-    //   logoUrl: "/laurier.png",
-    //   start: "2016",
-    //   end: "2021",
-    // },
-    // {
-    //   school: "International Baccalaureate",
-    //   href: "https://ibo.org",
-    //   degree: "IB Diploma",
-    //   logoUrl: "/ib.png",
-    //   start: "2012",
-    //   end: "2016",
-    // },
+       end: "Expected Graduation, November 2025",
+     }
   ],
   projects: [
     
      {
        title: "Decizio",
-       href: "decizio.online",
+       href: "https://decizio.online",
        dates: "March 2025",
        active: true,
        description:

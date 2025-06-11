@@ -12,24 +12,36 @@ import Markdown from "react-markdown";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  
+
   return (
     <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
-          <div className="gap-2 md:flex flex-col justify-between">
+        <div className="mx-auto w-full max-w-4xl space-y-8">
+          <div className="gap-2 flex md:flex-row-reverse flex-col justify-between items-center">
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="md:size-[300px] size-28">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+              <Avatar className="size-[150px] md:size-[250px] border mb-[25px] flex justify-center items-center">
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
             <div className="flex-col flex flex-1 space-y-1.5">
-              <BlurFadeText
-                delay={BLUR_FADE_DELAY}
-                className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
-                yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]} 👋`}
-              />
+              <div className="flex">
+                   <BlurFadeText
+                    delay={BLUR_FADE_DELAY}
+                    className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
+                    yOffset={8}
+                    text={"Hi, I'm"}
+                  />
+                  {" "}
+                   <BlurFadeText
+                    delay={BLUR_FADE_DELAY}
+                    className="text-3xl font-bold tracking-tighter text-[#0ccbbd] sm:text-5xl xl:text-6xl/none"
+                    yOffset={8}
+                    text={`_${DATA.name.split(" ")[0]}_  👋`}
+                  />
+
+              </div>
               <BlurFadeText
                 className="max-w-[600px] md:text-xl"
                 delay={BLUR_FADE_DELAY}
@@ -116,11 +128,11 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                <div className="inline-block rounded-lg bg-[#0ccbbd] text-background px-3 py-1 text-sm">
                   My Projects
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Here are some of the projects I made
+                  Here are some of the <span className="text-[#0ccbbd]">projects</span> I made
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I&apos;ve worked on a variety of projects, from simple
@@ -156,11 +168,11 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                <div className="inline-block rounded-lg bg-[#0ccbbd] text-background px-3 py-1 text-sm">
                   Hackathons
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I like <span className="text-[#0ccbbd]">building</span> things
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I like challenges, especially to strenghten my skills and have fun. 
@@ -193,17 +205,17 @@ export default function Page() {
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 16}>
             <div className="space-y-3">
-              <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+              <div className="inline-block rounded-lg bg-[#0ccbbd] text-background px-3 py-1 text-sm">
                 Contact
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Get in Touch
+                Get in Touch<span className="text-[#0ccbbd]">_</span>
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Feel free to reach me on {" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
-                  className="text-blue-500 hover:underline"
+                  className="text-[#0ccbbd] hover:underline"
                 >
                   LinkedIn
                 </Link>{" "}
