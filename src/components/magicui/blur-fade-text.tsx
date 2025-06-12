@@ -76,7 +76,7 @@ const BlurFadeText = ({
           }}
           className={cn("inline-block", className)}
         >
-          {text}
+          {text}{" "}
         </motion.span>
       </AnimatePresence>
     </div>
