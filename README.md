@@ -77,8 +77,7 @@ houssens-portfolio/
 
 - [Next.js](https://nextjs.org/)
 - [TailwindCSS](https://tailwindcss.com/)
-- [Magic](https://magic.link/) (Authentication)
-
+- [MagicUi]([https://magicui.com](https://magicui.design/)
 ---
 
 ## Contributing
